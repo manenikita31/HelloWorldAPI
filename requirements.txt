@@ -1,8 +1,8 @@
-Django: The main web Framework
+# Django: The main web Framework
 Django==5.1.1
 
-To manage environment variables securely.
+# To manage environment variables securely.
 django-environ
 
-To simulate and verify API calls.
+# To simulate and verify API calls.
 requests==2.32.3
