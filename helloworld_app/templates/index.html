@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        select, button {
+            margin: 10px;
+            padding: 10px;
+        }
+        #message-box {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Language</h1>
+    <select id="language-select">
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="Hindi">Hindi</option>
+    </select>
+    <button onclick="getMessage()">Get Message</button>
+
+    <div id="message-box" style="display:none;"></div>
+
+    <script>
+        function getMessage() {
+            const language = document.getElementById('language-select').value;
+            const messageBox = document.getElementById('message-box');
+
+            // Mocked server response for the selected language
+            const messages = {
+                "English": "Hello world",
+                "French": "Bonjour le monde",
+                "Hindi": "Namastey sansar"
+            };
+
+            // Check if the language is supported
+            if (messages[language]) {
+                messageBox.innerText = `Message: ${messages[language]}`;
+                messageBox.style.color = "green";
+            } else {
+                messageBox.innerText = "Error: Language not supported";
+                messageBox.style.color = "red";
+            }
+
+            // Show the message box with animation
+            messageBox.style.display = "block";
+            messageBox.style.opacity = "0";
+            messageBox.style.transition = "opacity 0.5s ease";
+            setTimeout(() => {
+                messageBox.style.opacity = "1";
+            }, 100);
+        }
+    </script>
+</body>
+</html>
