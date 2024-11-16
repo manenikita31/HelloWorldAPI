@@ -36,4 +36,8 @@ This project implements a simple Hello World API based on the provided hello_wor
 2. Select the Language from the dropdown and click "Get Message".
 3. The Corresponding "Hello World" message will displayed.
 
+## API Screenshots
+Here's an example of the API response for 'http://127.0.0.1:8000/hello/?language=French'
+
+![API Response] (images/Screenshot(46))
 
