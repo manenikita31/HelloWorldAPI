@@ -37,7 +37,30 @@ This project implements a simple Hello World API based on the provided hello_wor
 3. The Corresponding "Hello World" message will displayed.
 
 ## API Screenshots
-Here's an example of the API response for 'http://127.0.0.1:8000/hello/?language=French'
+- Here's an example of the API response for 'http://127.0.0.1:8000/hello/?language=French' 
 
-![API Response] (images/Screenshot(46))
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(52).png)
+
+- Here's an example of the API response for 'http://127.0.0.1:8000/hello/?language=Hindi' *
+
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(53).png)
+
+- Here's an example of the API response for 'http://127.0.0.1:8000/hello/?language=English'
+
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(54).png)
+
+- Here's an example of the API response for 'http://127.0.0.1:8000
+
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(49).png)
+
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(50).png)
+
+![API Response](https://github.com/manenikita31/HelloWorldAPI/blob/main/Images/Screenshot%20(51).png)
+
+
+
+
+
+
+
 
